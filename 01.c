@@ -27,7 +27,7 @@ if(invalid==l)
  printf("Invalid input");
 }
 else if(present_state==final_state)
- printf("Accept\n");
+ printf("Accept");
 else
- printf("Don't Accept\n");
+ printf("Don't Accept");
 }
