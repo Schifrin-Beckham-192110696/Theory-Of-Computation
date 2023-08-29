@@ -16,12 +16,12 @@ for(i=0;i<l;i++)
 }
 }
  if(flag!=1)
-  printf("string is Not Valid\n");
+  printf("string is Not Valid");
 if(flag==1)
 {
  if (s[0]=='0'&&s[l-1]=='1')
-  printf("string is accepted\n");
+  printf("string is accepted");
  else
-  printf("string is Not accepted\n");
+  printf("string is Not accepted");
 }
 }
