@@ -17,9 +17,9 @@ if(s[i]!='0' && s[i]!='1')
 }
 }
 if(flag==1)
-printf("string is Valid\n");
+printf("string is Valid");
 else
-printf("string is Not Valid\n");
+printf("string is Not Valid");
 if(flag==1)
 {
 flag1=0;
@@ -30,12 +30,12 @@ if(s[i]=='1')
 if(s[i+1]=='0' && s[i+2]=='1')
 {
 flag1=1;
-printf("Substring 101 exists. String accepted\n");
+printf("Substring 101 exists. String accepted");
 break;
 }
 }
 }
 if(flag1==0)
-printf("Substring 101 does not exist. String not accepted\n");
+printf("Substring 101 does not exist. String not accepted");
 }
 }
