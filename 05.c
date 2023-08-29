@@ -17,7 +17,7 @@ if(s[i]!='0' && s[i]!='1')
 }
 }
 if(flag!=1)
-printf("string is Not Valid\n");
+printf("string is Not Valid");
 if(flag==1)
 {
 i=0;count1=0;
@@ -48,19 +48,16 @@ if(flag1==1)
 {
 if(count1==count2)
  {
- printf("The string satisfies the condition 0n1m0n\n");
- printf("String Accepted\n");
+ printf("The string is satisfied and accepted\n");
  }
  else
  {
- printf("The string does not satisfy the condition 0n1m0n\n");
- printf("String Not Accepted\n");
+ printf("The string is  not satisfied and not accepted\n");
  }
 }
 else
  {
- printf("The string does not satisfy the condition 0n1m0n\n");
- printf("String Not Accepted\n");
+ printf("The string is not satisfied and not accepted\n");
 }
 }
 }
